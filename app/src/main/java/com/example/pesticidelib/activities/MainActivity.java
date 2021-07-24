@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
             Fragment fragment;
             switch (item.getItemId()) {
                 case R.id.navigation_all_items:
-                    actionBar.setTitle("Tất cả thuốc Ahii do ngoc");
+                    actionBar.setTitle("Tất cả thuốc");
                     fragment = new AllItemsFragment();
                     loadFragment(fragment);
                     currentFragment = 1;
